@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">RemindMe Alpha</string>
     <string name="search_item_text">Search</string>
+    <string name="notifications_title">Напоминания</string>
 </resources>
