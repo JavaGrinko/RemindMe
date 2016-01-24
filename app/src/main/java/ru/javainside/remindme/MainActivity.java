@@ -27,12 +27,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initViewPager() {
-        //viewPager = (ViewPager) findViewById(R.id.view_pager);
-        //TabLayoutFragmentPagerAdapter adapter = new TabLayoutFragmentPagerAdapter(getSupportFragmentManager());
-        //viewPager.setAdapter(adapter);
-//
-        //TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
-        //tabLayout.setupWithViewPager(viewPager);
+        viewPager = (ViewPager) findViewById(R.id.view_pager);
+        TabLayoutFragmentPagerAdapter adapter = new TabLayoutFragmentPagerAdapter(getSupportFragmentManager());
+        viewPager.setAdapter(adapter);
+
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+        tabLayout.setupWithViewPager(viewPager);
     }
 
 

@@ -30,7 +30,7 @@ public class TabLayoutFragmentPagerAdapter extends FragmentPagerAdapter{
                 return MainFragment.getInstance();
             case 1:
                 return MainFragment.getInstance();
-            case 3:
+            case 2:
                 return MainFragment.getInstance();
         }
         return null;
