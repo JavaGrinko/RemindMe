@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme" parent="Theme.AppCompat">
+    <style name="RootStyle" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="AppTheme" parent="RootStyle">
         <item name="colorPrimary">@color/colorToolbar</item>
         <item name="colorPrimaryDark">@color/colorToolbarDark</item>
-        <item name="windowActionBar">false</item>
+        <item name="colorControlNormal">@android:color/white</item>
     </style>
 </resources>
